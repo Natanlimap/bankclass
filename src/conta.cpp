@@ -6,7 +6,7 @@ titular(ltitular), numero(lnumero), saldo(0){
 }
 
 bool conta::saca(float value){
-	if(saldo < value){
+	if(this->saldo < value){
 		std::cout << "Saldo insuficiente" << std::endl;
 		return false;
 	}
