@@ -3,8 +3,8 @@
 
 int main(int argc, char const *argv[])
 {
-	conta a("natan de lima", "003");
-	conta b("joel", "004");
+	Conta a("natan de lima", "003");
+	Conta b("joel", "004");
 
 
 	std::cout << a.saldo << std::endl;

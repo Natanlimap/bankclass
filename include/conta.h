@@ -1,14 +1,19 @@
+#ifndef CONTA_H
+#define CONTA_H
+
+
 #include <string>
 #include <iostream>
-class conta{
+class Conta{
 
 public:
-	conta(std::string ltitular, std::string lnumero);
+	Conta(std::string ltitular, std::string lnumero);
 	std::string numero;
 	std::string titular;
 	float saldo;
 	bool saca(float value);
 	void deposita(float value);
-	void transfere(conta &x, float valor);
+	void transfere(Conta &x, float valor);
 
 };
+#endif
