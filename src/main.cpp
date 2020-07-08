@@ -1,29 +1,16 @@
 #include <iostream>
 #include <conta.h>
+#include <cliente.h>
 
 int main(int argc, char const *argv[])
 {
 	Conta a("natan de lima", "003");
 	Conta b("joel", "004");
+	Cliente teste("teste", "01");
+	Cliente teste2("teste", "01");
 
+	std::cout << teste.quantCliente << std::endl;
 
-	std::cout << a.saldo << std::endl;
-
-	a.deposita(100);
-
-	std::cout << a.saldo << std::endl;
-
-	a.saca(20);
-	
-	std::cout << a.saldo << std::endl;
-
-	std::cout << "teste de transferencia" << std::endl;
-
-	a.transfere(b, 20);
-
-	std::cout << "saldo de A: " << a.saldo <<std::endl;
-
-	std::cout << "saldo de B: " << b.saldo <<std::endl;
 
 
 

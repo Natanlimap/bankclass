@@ -1,8 +1,10 @@
 #include <conta.h>
 
+int Conta::quantContas;
+
 Conta::Conta(std::string ltitular, std::string lnumero): 
 titular(ltitular), numero(lnumero), saldo(0){
-	
+	quantContas += 1;
 }
 
 bool Conta::saca(float value){
