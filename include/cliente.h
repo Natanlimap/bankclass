@@ -6,6 +6,7 @@
 class Cliente{
 
 public:
+	Cliente();
 	Cliente(std::string lnome, std::string lcpf);
 	std::string nome;
 	std::string cpf;
