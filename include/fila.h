@@ -47,7 +47,7 @@ public:
 
 	}
 	
-	void push(T element)
+	void push(const T element)
 	{
 
 

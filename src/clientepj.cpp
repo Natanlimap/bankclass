@@ -3,8 +3,8 @@
 
 ClientePJ::ClientePJ()
 {
-	setCNPJ("");
-	setRazaoSocial("");
+	setCNPJ("a");
+	setRazaoSocial("a");
 
 }
 
