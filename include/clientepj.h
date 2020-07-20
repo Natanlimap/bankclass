@@ -3,10 +3,9 @@
 
 #include <string>
 #include <iostream>
+#include <cliente.h>
 
-
-class ClientePJ
-{
+class ClientePJ: public Cliente{
 public:
 	ClientePJ();
 	ClientePJ(std::string lCNPJ, std::string lRazaoSocial);
